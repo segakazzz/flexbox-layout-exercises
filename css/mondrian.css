@@ -1,0 +1,354 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.red {
+  background-color: red;
+}
+
+.white {
+  background-color: white;
+}
+
+.black {
+  background-color: black;
+}
+
+section {
+  width: 80%;
+  height: 80vh;
+  display: flex;
+  align-items: stretch;
+  background-color: black;
+  border: 14px solid #464545;
+}
+
+section * {
+  box-sizing: border-box;
+  border: 7px solid #464545;
+  margin: -7px;
+}
+
+section #a {
+  display: flex;
+  flex: 2;
+  flex-direction: column;
+}
+
+section #a #a-1 {
+  flex: 1;
+  display: flex;
+}
+
+section #a #a-1 #a-1-a {
+  flex: 2;
+}
+
+section #a #a-1 #a-1-b {
+  flex: 3;
+}
+
+section #a #a-2 {
+  flex: 5;
+  display: flex;
+  flex-direction: row;
+}
+
+section #a #a-2 #a-2-a {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+section #a #a-2 #a-2-a #a-2-a-1 {
+  flex: 2;
+}
+
+section #a #a-2 #a-2-a #a-2-a-2 {
+  flex: 3;
+}
+
+section #a #a-2 #a-2-b {
+  flex: 4;
+  display: flex;
+  flex-direction: column;
+}
+
+section #a #a-2 #a-2-b #a-2-b-1 {
+  flex: 4;
+}
+
+section #a #a-2 #a-2-b #a-2-b-2 {
+  flex: 1;
+  display: flex;
+}
+
+section #a #a-2 #a-2-b #a-2-b-2 div {
+  flex: 1;
+}
+
+section #a #a-3 {
+  flex: 4;
+  display: flex;
+}
+
+section #a #a-3 #a-3-a {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+}
+
+section #a #a-3 #a-3-a #a-3-a-1 {
+  flex: 3;
+  display: flex;
+}
+
+section #a #a-3 #a-3-a #a-3-a-1 #a-3-a-1-a {
+  flex: 1;
+}
+
+section #a #a-3 #a-3-a #a-3-a-1 #a-3-a-1-b {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+}
+
+section #a #a-3 #a-3-a #a-3-a-1 #a-3-a-1-b #a-3-a-1-b-1 {
+  flex: 1;
+  border-top: 8px transparent solid;
+}
+
+section #a #a-3 #a-3-a #a-3-a-1 #a-3-a-1-b #a-3-a-1-b-2 {
+  flex: 2;
+}
+
+section #a #a-3 #a-3-a #a-3-a-2 {
+  flex: 1;
+}
+
+section #a #a-3 #a-3-b {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+}
+
+section #a #a-3 #a-3-b #a-3-b-1 {
+  flex: 1;
+}
+
+section #a #a-3 #a-3-b #a-3-b-2 {
+  flex: 1;
+}
+
+section #a #a-3 #a-3-b #a-3-b-3 {
+  flex: 2;
+  display: flex;
+}
+
+section #a #a-3 #a-3-b #a-3-b-3 #a-3-b-3-a {
+  flex: 1;
+}
+
+section #a #a-3 #a-3-b #a-3-b-3 #a-3-b-3-b {
+  flex: 1;
+}
+
+section #b {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+section #b #b-1 {
+  flex: 1;
+}
+
+section #b #b-2 {
+  flex: 2;
+}
+
+section #b #b-3 {
+  flex: 2;
+  display: flex;
+}
+
+section #b #b-3 #b-3-a {
+  flex: 1;
+}
+
+section #b #b-3 #b-3-b {
+  flex: 1;
+  margin-left: 0;
+}
+
+section #b #b-4 {
+  flex: 1;
+}
+
+section #b #b-5 {
+  flex: 2;
+}
+
+section #b #b-6 {
+  flex: 2;
+}
+
+section #c {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+section #c #c-1 {
+  flex: 2;
+}
+
+section #c #c-2 {
+  flex: 2;
+}
+
+section #c #c-3 {
+  flex: 1;
+}
+
+section #c #c-4 {
+  flex: 2;
+  display: flex;
+}
+
+section #c #c-4 #c-4-a {
+  flex: 1;
+}
+
+section #c #c-4 #c-4-b {
+  flex: 1;
+  margin-left: 0;
+}
+
+section #c #c-5 {
+  flex: 2;
+}
+
+section #c #c-6 {
+  flex: 1;
+  display: flex;
+}
+
+section #c #c-6 #c-6-a {
+  flex: 1;
+}
+
+section #c #c-6 #c-6-b {
+  flex: 1;
+}
+
+section #d {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+}
+
+section #d #d-1 {
+  flex: 1;
+  display: flex;
+}
+
+section #d #d-1 #d-1-a {
+  flex: 1;
+  background-color: yellow;
+}
+
+section #d #d-1 #d-1-b {
+  flex: 1;
+  background-color: black;
+}
+
+section #d #d-1 #d-1-c {
+  flex: 3;
+  background-color: white;
+}
+
+section #d #d-2 {
+  flex: 8;
+  display: flex;
+}
+
+section #d #d-2 #d-2-a {
+  flex: 4;
+  display: flex;
+  flex-direction: column;
+}
+
+section #d #d-2 #d-2-a #d-2-a-1 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+}
+
+section #d #d-2 #d-2-a #d-2-a-1 #d-2-a-1-a,
+section #d #d-2 #d-2-a #d-2-a-1 #d-2-a-1-b {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+section #d #d-2 #d-2-a #d-2-a-1 #d-2-a-1-a div,
+section #d #d-2 #d-2-a #d-2-a-1 #d-2-a-1-b div {
+  flex: 1;
+}
+
+section #d #d-2 #d-2-a #d-2-a-2 {
+  flex: 1;
+  background-color: blue;
+}
+
+section #d #d-2 #d-2-b {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+section #d #d-2 #d-2-b #d-2-b-1 {
+  flex: 3;
+  background-color: yellow;
+}
+
+section #d #d-2 #d-2-b #d-2-b-2 {
+  flex: 3;
+  background-color: white;
+}
+
+section #d #d-2 #d-2-b #d-2-b-3 {
+  flex: 2;
+  background-color: white;
+}
+
+section #d #d-3 {
+  flex: 1;
+  display: flex;
+}
+
+section #d #d-3 #d-3-a {
+  flex: 3;
+  background-color: white;
+}
+
+section #d #d-3 #d-3-b {
+  flex: 2;
+  background-color: white;
+}
