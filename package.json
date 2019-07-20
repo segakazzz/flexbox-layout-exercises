@@ -1,0 +1,24 @@
+{
+  "name": "flexbox-layout-exercises",
+  "version": "1.0.0",
+  "description": "These exercises are designed to practice doing layout using CSS with [flexbox].",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css": "node-sass scss/*.scss -o css/",
+    "css:watch": "node-sass scss/*.scss -wo css/ --output-style expanded"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/segakazzz/flexbox-layout-exercises.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/segakazzz/flexbox-layout-exercises/issues"
+  },
+  "homepage": "https://github.com/segakazzz/flexbox-layout-exercises#readme",
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
+}
