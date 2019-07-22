@@ -1,0 +1,162 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  justify-content: space-around;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #010149;
+}
+
+#face {
+  width: 50%;
+  padding-top: 50%;
+  background-color: #fdd5a5;
+  border-radius: 50%;
+  position: relative;
+  border: black 1px solid;
+  box-shadow: 10px -10px rgba(0, 0, 0, 0.2);
+}
+
+#face * {
+  border: none;
+}
+
+#face #faceparts {
+  width: 80%;
+  height: 80%;
+  position: absolute;
+  top: calc((100% - 80%) / 2);
+  left: calc((100% - 80%) / 2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#face #faceparts #eyebrows {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: space-around;
+  overflow: hidden;
+}
+
+#face #faceparts #eyebrows .eyebrow {
+  width: 25%;
+  height: 200%;
+  border-radius: 50%;
+  border: 3px black solid;
+}
+
+#face #faceparts #eyebrows #eyebrow-left {
+  margin-left: 15%;
+}
+
+#face #faceparts #eyebrows #eyebrow-right {
+  margin-right: 15%;
+}
+
+#face #faceparts #eyes {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  justify-content: space-around;
+}
+
+#face #faceparts #eyes .eye {
+  background-color: black;
+  width: 10%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+#face #faceparts #eyes #eye-left {
+  margin-left: 15%;
+}
+
+#face #faceparts #eyes #eye-right {
+  margin-right: 15%;
+}
+
+#face #faceparts #nose_and_cheeks {
+  width: 100%;
+  height: 35%;
+  display: flex;
+  justify-content: center;
+  border: none;
+}
+
+#face #faceparts #nose_and_cheeks #nose {
+  height: 100%;
+  width: 36%;
+  border-radius: 50%;
+  background-color: #fd2904;
+  border: black solid 1px;
+  position: relative;
+}
+
+#face #faceparts #nose_and_cheeks #nose .white_square {
+  position: absolute;
+  top: 20%;
+  left: 35%;
+}
+
+#face #faceparts #nose_and_cheeks .cheeks {
+  background-color: #ff4800;
+  border-radius: 50%;
+  width: 32%;
+  height: 100%;
+  position: relative;
+}
+
+#face #faceparts #nose_and_cheeks .cheeks .white_square {
+  position: absolute;
+  top: 20%;
+  left: 30%;
+}
+
+#face #faceparts #nose_and_cheeks .white_square {
+  width: 20%;
+  height: 20%;
+  background-color: #ffe4e4;
+}
+
+#face #faceparts #nose_to_mouth {
+  height: 0.5%;
+  width: 72%;
+  border-bottom: 1px black solid;
+}
+
+#face #faceparts #mouth_area {
+  width: 100%;
+  height: 30%;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+#face #faceparts #mouth_area #mouth {
+  width: 80%;
+  height: 350%;
+  border-radius: 50%;
+  background-color: #dfa3ad;
+  border: 1px solid black;
+  position: absolute;
+  bottom: 0;
+}
+
+#face #faceparts #mouth_area #mouth-border-top {
+  width: 65%;
+  height: 0%;
+  border: 2px solid black;
+  position: absolute;
+  top: 0;
+}
+
+#original_img {
+  text-align: center;
+  color: white;
+}
