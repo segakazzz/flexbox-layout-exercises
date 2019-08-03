@@ -1,3 +1,9 @@
+### Link to works
+* Mondrian - https://segakazzz.github.io/flexbox-layout-exercises/mondrian.html
+* Anpanman - https://segakazzz.github.io/flexbox-layout-exercises/anpanman.html
+* Holy Grail - https://segakazzz.github.io/flexbox-layout-exercises/holy-grail.html
+* ChessBoard - https://segakazzz.github.io/flexbox-layout-exercises/chessboard.html
+
 # CSS Layout Exercises
 
 These exercises are designed to practice doing layout using CSS with [flexbox].
